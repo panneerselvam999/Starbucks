@@ -1,0 +1,50 @@
+/* menus - start */
+.gift-card-menus{
+    background-color: #edebe9;
+}
+.gift-card-menus .menus a{
+    text-decoration: none;
+    color: black;
+}
+/* menus - end */
+
+/* gift card - start */
+.gift-card img{
+    width: 170px;
+    height: 100px;
+}
+/* gift card - end */
+
+/* barista recommends - start */
+.barista-recommends {
+    background-color: #edebe9;
+  }
+  .barista-recommends .row .row a {
+    text-decoration: none;
+    color: #198754;
+  }
+  .barista-card-img-div{
+
+  }
+  .barista-card-img-1 {
+    height: 70px;
+    width: 100px !important;
+    /* padding: 0;
+    margin: 0; */
+  }
+  .card-height {
+    height: 200px !important;
+    /* width: 400px !important; */
+    /* border: 10px dashed; */
+  }
+  /* barista recommends - end */
+
+
+  /* footer - start */
+.footer {
+    background-color: #0e382c;
+  }
+  .app-store {
+    width: 90%;
+  }
+  /* footer - end */

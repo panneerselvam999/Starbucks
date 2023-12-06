@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu | Tata Starbucks</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- nav - start -->
+    <div class="nvabar sticky-top top-0 bg-white">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-1">
+          <a href="index.html">
+            <img src="img/logo.png" alt="" style="width: 40px" />
+          </a>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="nvabar d-flex align-items-center nav-menu">
+            <a class="m-4 text-dark pb-2 nav-link" href="index.html">Home</a>
+            <a class="m-4 text-dark pb-2 nav-link" href="gift.html">Gift</a>
+            <a class="m-4 text-dark pb-2 nav-link" href="order.html">Order</a>
+            <a class="m-4 text-dark pb-2 nav-link" href="">Pay</a>
+            <a class="m-4 text-dark pb-2 nav-link" href="">Store</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 ms-auto">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 rounded-5" type="search" placeholder="Looking for something specific?"
+              aria-label="Search" />
+          </form>
+        </div>
+
+        <div class="col-lg-1 ms-auto">
+          <a href="login.html">
+            <img src="img/login.png" alt="" style="width: 40px" />
+        </a>        </div>
+      </div>
+    </div>
+    <!-- nav - end -->
+
+
+    <!-- breadcrumb - start -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html" style="text-decoration: none; color: black;">Home</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Order</li>
+      </ol>
+    </nav>
+    <!-- breadcrumb - end -->
+
+
+
+    <!-- order btn group - statr -->
+    <div class="order-btn-group mt-4 mb-5 border py-4 text-white">
+      <div class="row">
+        <div class="col col-md-4 ">
+
+          <div class="input-group">
+            <input type="text" class="form-control " placeholder="No Store Selected">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary o-search-btn" type="button">
+                <!-- <i class="fas fa-search"> select</i> -->
+                <span>select</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <div class="col col-md-4  ms-auto d-flex justify-content-center">
+
+          <div class="btn-group " role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-group-color text-white">Delivery</button>
+            <button type="button" class="btn btn-group-color text-white">Dine-In</button>
+            <button type="button" class="btn btn-group-color text-white">Takeaway</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- order btn group - end -->
+
+    <!-- order menus - start -->
+    <div class="order-menus my-5  p-4">
+      <div class="d-flex gap-4">
+        <a href="">Bestseller</a>
+        <span> | </span>
+        <a href="">Drinks</a>
+        <span> | </span>
+        <a href="">Food</a>
+        <span> | </span>
+        <a href="">Merchandise</a>
+        <span> | </span>
+        <a href="">Coffee At Home</a>
+        <span> | </span>
+        <a href="">Ready to Eat</a>
+      </div>
+    </div>
+    <!-- order menus - end -->
+
+
+    <!-- order menus cards - start -->
+
+    <div class="menus-card-main">
+      <div class="row mb-3 ">
+
+
+        <div class="card col-9 col-md-4 card-heigh mb-3">
+          <div class="card-body d-flex flex-row ps-0 pe-1">
+            <div class="div  me-4 rounded-circle">
+              <img src="img/Bestseller.jpg" class="card-img barista-card-img-1 " alt="..." />
+            </div>
+            <div class="div my-auto ">
+              <h5 class="card-title">Java Chip Frappuccino</h5>
+              <p class="card-text">
+                We blend mocha sauce and Frappuccino® chips with Frappuccino...
+              </p>
+              <div class="d-flex">
+                <span>₹399.00</span>
+                <a href="#" class="btn btn-success rounded-5 ms-auto p-0 px-3 text-white">Add item</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-9 col-md-4 card-heigh mb-3">
+          <div class="card-body d-flex flex-row ps-0 pe-1">
+            <div class="div  me-4  rounded">
+              <img src="img/Iced Rock salted caramel latte.webp" class="card-img barista-card-img-1 " alt="..." />
+            </div>
+            <div class="div my-auto ">
+              <h5 class="card-title">Caffe Americano</h5>
+              <p class="card-text">
+                Rich in flavour, full-bodied espresso with hot water in true...
+              </p>
+              <div class="d-flex">
+                <span>₹399.00</span>
+                <a href="#" class="btn btn-success rounded-5 ms-auto p-0 px-3 text-white">Add item</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card col-9 col-md-4 card-heigh mb-3">
+          <div class="card-body d-flex flex-row ps-0 pe-1">
+            <div class="div  me-4  rounded">
+              <img src="img/Iced pumpkin spice latte.webp" class="card-img barista-card-img-1 " alt="..." />
+            </div>
+            <div class="div my-auto ">
+              <h5 class="card-title">Cold coffee</h5>
+              <p class="card-text">
+                Our signature rich in flavour espresso blended with delicate...
+              </p>
+              <div class="d-flex">
+                <span>₹399.00</span>
+                <a href="#" class="btn btn-success rounded-5 ms-auto p-0 px-3 text-white">Add item</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-3">
+
+
+
+
+
+
+        <div class="card col-9 col-md-4 card-heigh mb-3">
+          <div class="card-body d-flex flex-row ps-0 pe-1">
+            <div class="div  me-4  rounded">
+              <img src="img/Drinks.jpg" class="card-img barista-card-img-1 " alt="..." />
+            </div>
+            <div class="div my-auto ">
+              <h5 class="card-title">Double Chocolate Chip Frappuccino</h5>
+              <p class="card-text">
+                Rich mocha-flavored sauce meets up with chocolaty chips, mil...
+              </p>
+              <div class="d-flex">
+                <span>₹399.00</span>
+                <a href="#" class="btn btn-success rounded-5 ms-auto p-0 px-3 text-white">Add item</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card col-9 col-md-4 card-heigh mb-3">
+          <div class="card-body d-flex flex-row ps-0 pe-1">
+            <div class="div  me-4  rounded">
+              <img src="img/pumpkin spice latte.webp" class="card-img barista-card-img-1 " alt="..." />
+            </div>
+            <div class="div my-auto ">
+              <h5 class="card-title">Cappuccino</h5>
+              <p class="card-text">
+                Dark, Rich in flavour espresso lies in wait under a smoothed...
+              </p>
+              <div class="d-flex">
+                <span>₹399.00</span>
+                <a href="#" class="btn btn-success rounded-5 ms-auto p-0 px-3 text-white">Add item</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <!-- order menus cards - end -->
+
+
+    <!-- order-mayuri - start -->
+    <section>
+      <div class="row order-mayuri rounded my-5">
+        <div class="col-7  my-auto ms-5">
+          <div class="div text-white">
+            <p class=" fs-3">Mayuri, our barista has a message for you</p>
+            <p>Let us help you create an exceptional season! Bring home the Starbucks merchandise.</p>
+          </div>
+        </div>
+        <div class="col-3  d-flex ">
+          <img src="img/order-mayuri.png" class="order-mayuri-img  ms-auto" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- order-mayuri - end -->
+
+
+    <!-- footer - start -->
+    <div class="order-footer ">
+      <p class="text-muted small">An average active adult requires 2,000 kcal energy per day, however, calorie needs may
+        vary.</p>
+      <p class="text-muted small">FSSAI Lisence No.</p>
+    </div>
+
+    <!-- footer - end -->
+
+
+
+
+
+  </div>
+  <!-- container - div -->
+  <!-- css js cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jquery link  -->
+  <link rel="stylesheet" href="jquery.min.js" />
+</body>
+
+</html>

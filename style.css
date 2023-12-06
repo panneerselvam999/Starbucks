@@ -1,0 +1,215 @@
+/* nav - start */
+.nav-link {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.nav-link:hover {
+  border-bottom: 2px solid green;
+}
+/* .nvabar{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+} */
+/* nav - end */
+
+/* know - more - start */
+.know-more {
+  background-color: #0e382c;
+  height: 80px;
+}
+.know-more a {
+  text-decoration: none;
+}
+/* know - more - end */
+
+/* dishes - start */
+.d-img:hover {
+  border: 2px solid transparent;
+}
+.d-img:hover {
+  border: 2px solid green;
+}
+/* dishes - end */
+
+/* carousel - start */
+.card-with-background-1 {
+  background-image: url("img/c1.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  color: white; /* Set text color to ensure readability on the background image */
+}
+.card-with-background-2 {
+  background-image: url("img/c2.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  color: white; /* Set text color to ensure readability on the background image */
+}
+.card-with-background-3 {
+  background-image: url("img/c3.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  color: white; /* Set text color to ensure readability on the background image */
+}
+
+#carouselExample .card img {
+  width: 100px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.card-body .card-text{
+  font-size: small;
+  color: #868e96;
+}
+/* carousel - end */
+
+/* latest offerings - start */
+.card-lo {
+  border: none;
+  border-radius: 0;
+  box-shadow: 2px 6px 8px 0 rgba(124, 124, 250, 0.18);
+}
+
+/* .carousel-inner { */
+.ci-lo {
+  padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media screen and (min-width: 577px) {
+  /* .cards-wrapper { */
+  .cw-lo {
+    display: flex;
+  }
+
+  .card-lo {
+    margin: 0 0.5em;
+    width: calc(100% / 2);
+  }
+
+  /* .image-wrapper { */
+  .iw-lo {
+    height: 20vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* .card:not(:first-child) { */
+  .card-lo:not(:first-child) {
+    display: none;
+  }
+}
+
+/* .image-wrapper img { */
+.iw-lo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* latest offerings - end */
+
+/* world - start */
+/* world - end */
+
+/* barista recommends - start */
+.barista-recommends {
+  background-color: #edebe9;
+}
+.barista-recommends .row .row a {
+  text-decoration: none;
+  color: #198754;
+}
+.barista-card-img-1 {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+.card-height {
+  height: 200px !important;
+  /* width: 450px; */
+  /* border: 10px dashed; */
+}
+/* barista recommends - end */
+
+/* world-of-coffee - statr */
+.world-of-coffee {
+  background-color: #edebe9;
+}
+/* world-of-coffee - end */
+
+/* order page - start */
+/* search - start */
+.order-btn-group input {
+  background-color: #1e3932;
+  border: none;
+  border-bottom: 2px solid white;
+  box-shadow: none;
+  border-radius: 0;
+}
+.order-btn-group input::placeholder {
+  color: white;
+}
+.order-btn-group button {
+  border: none;
+  border: 1px solid white;
+}
+.order-btn-group .o-search-btn {
+  border: none;
+}
+/* search - end */
+/* order btn group - start */
+.order-btn-group {
+  background-color: #1e3932;
+}
+
+.btn-group-color {
+  background-color: #1e3932;
+  border-color: white;
+}
+/* order btn group - end */
+
+/* order menus - start */
+.order-menus {
+  background-color: #f2f0eb;
+}
+.order-menus a {
+  text-decoration: none;
+  color: black;
+  background-color: #f2f0eb;
+}
+/* order menus - end */
+/* order-mayuri - start */
+.order-mayuri {
+  background-color: #539e86;
+}
+.order-mayuri-img {
+  height: 150px !important;
+}
+/* order-mayuri - end */
+/* order page - end */
+
+/* footer - start */
+.footer {
+  background-color: #0e382c;
+}
+.app-store {
+  width: 90%;
+}
+/* footer - end */
